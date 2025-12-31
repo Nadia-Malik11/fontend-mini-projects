@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glossy To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="todo-container">
+  <h2>✨ To-Do List</h2>
+
+  <div class="input-box">
+    <input type="text" id="taskInput" placeholder="Write a task...">
+    <button onclick="addTask()">+</button>
+  </div>
+
+  <div class="stats">
+    <span id="total">Total: 0</span>
+    <span id="completed">Completed: 0</span>
+    <span id="pending">Pending: 0</span>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <button class="clear-btn" onclick="clearAll()">Clear All</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
